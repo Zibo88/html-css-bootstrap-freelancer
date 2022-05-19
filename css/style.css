@@ -9,15 +9,19 @@ ul{
     display: flex;
 }
 
+.bg_lightgreen {
+    background-color: #19bc9c;
+}
+
+section{
+    padding: 1.3rem 0;
+}
+
 /* HEADER */
 header {
     height: 100px;
     background-color: #2c3e4f;
-}
-
-.container{
-    height: 100%;
-    line-height: 100px;
+    align-items: center;
 }
 
 .burger_menu{
@@ -29,9 +33,46 @@ header {
 }
 
 .header_menu_list.flex li{
-    padding: 0 0.5rem;
     color: #f5f5f6;
+    padding: 0 0.5rem;
 }
+
+/* MAIN */
+
+/* jambotron */
+.jambotron_container {
+    text-align: center;
+}
+
+.jambotron_container h2{
+    color: white;
+    font-size: 35px;
+} 
+
+.jambotron_list.flex {
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.jambotron_list.flex li {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+/* sezione 2 */
+
+.section2 h2, .stella {
+    text-align: center;
+}
+.square {
+    height: 300px;
+    width: 100%;
+    background-color: lightblue;
+    margin: 1rem 0;
+}
+
 
 
 

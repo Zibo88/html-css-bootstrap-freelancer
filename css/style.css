@@ -77,9 +77,9 @@ header {
 
 
 /* STELLA */
-.stella{
+.stella, .stella_nera{
     font-size: 2rem;
-    padding: 1rem 0;
+    padding: 1rem 0;   
 }
 
 .stella:after, .stella:before {
@@ -87,8 +87,19 @@ header {
     display: inline-block;
     width: 30%;
     height: 2px;
-    color: white;
+    background-color: white;
+    vertical-align: middle;
 }
+
+.stella_nera:after, .stella_nera:before {
+    content: "";
+    display: inline-block;
+    width: 30%;
+    height: 2px;
+    background-color: black;
+    vertical-align: middle;
+}
+
 
 .jambotron_list.flex li {
     font-size: 15px;
@@ -128,7 +139,7 @@ header {
 
 /* sezione 4 */
 
-.small_container h2, .stella {
+.small_container h2, .stella, .stella_nera{
     text-align: center;
 }
 
@@ -137,15 +148,25 @@ header {
     border-left: transparent;
     border-right: transparent;
     border-bottom: 1px solid #e5e5e5;
+    padding: 0.5rem 0;
+}
 
+.mb-3 {
+    padding: 1rem 0;
 }
 
 .form-control:focus {
     box-shadow: none;
 }
 
-.send{
-    padding-bottom: 1rem;
+#exampleFormControlTextarea1 {
+    padding-bottom: 8rem;
+}
+
+.btn.my_btn_green{
+    padding-bottom: 0.5rem;
+    background-color: #19bc9c;
+    color: white;
 }
 
 /* FOOTER */
@@ -156,16 +177,38 @@ footer{
     padding: 1.8rem 0 0 0;
 }
 
-.footer_item {
-    text-align: center;
-}
-
 .footer_bottom{
     height: 70px;
     background-color: #2c3e4f;
     color: white;
     text-align: center;
     line-height: 70px;
+}
+
+.social-media {
+    padding: 3rem;
+}
+
+.address, .social-media, .social_media_square {
+    text-align: center;  
+}
+
+.social_media_square {
+    height: 50px;
+    width: 50px;
+    background-color: #3b536d;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+}
+
+.brand i {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 

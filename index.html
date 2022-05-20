@@ -109,7 +109,7 @@
         <section class="section2">
             <div class="container text-center">
                 <h2>PORTFOLIO</h2>
-                <div class="stella">
+                <div class="stella_nera">
                     <i class="fa-solid fa-star"></i>
                 </div>
                 <div class="row">
@@ -202,12 +202,14 @@
         <section>
             <div class="small_container">
                 <h2>CONTACT ME</h2>
-                <div class="stella">
+                <div class="stella_nera">
                     <i class="fa-solid fa-star"></i>
                 </div>
                 <div class="container-fluid">
+                    <!-- form -->
                     <form>
 
+                        <!-- NAME -->
                         <div class="mb-3">
                             <label for="Nome" class="form-label visually-hidden">
                                 Name
@@ -215,29 +217,31 @@
                             <input type="text" class="form-control" id="Name" aria-describedby="emailHelp" placeholder="Name">
                         </div>
 
+                        <!-- EMAIL ADDRESS -->
                         <div class="mb-3">
                             <label for="email" class="form-label visually-hidden">Email Address</label>
                             <input type="email" class="form-control" id="email" placeholder="Email Address">
                         </div>
 
-                        <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        <!-- PHONE NUMBER -->
+                        <div class="mb-3">
+                            <label for="Phone Number" class="form-label visually-hidden">
+                                Phone Number
+                            </label>
+                            <input type="text" class="form-control" id="Phone Number" aria-describedby="emailHelp" placeholder="Phone Number">
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                        
+
                         <!-- text area -->
                         <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                          </div>
+                            <label for="exampleFormControlTextarea1" class="form-label visually-hidden">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                        </div>
                     </form>
-                    
-                        <button type="button" class="my_btn">
-                            Send
-                        </button>
-                    
-                   
+
+                    <!-- submit -->
+                    <button type="submit" class="btn my_btn_green">
+                        Send
+                    </button>  
                 </div>   
             </div>
         </section>
@@ -250,25 +254,61 @@
     
                 <!-- prima colonna -->
                 <div class="col-12 col-md-4">
-                        <p class="footer_item">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sed aspernatur pariatur voluptatum cupiditate dolorum facere commodi itaque dolorem, nisi numquam dignissimos adipisci distinctio hic quas tenetur rem sunt at.
-                        </p>
-                    </div>
+                    <div class="address">
+                        <h5>LOCATION</h5>
+                        <div id="address">
+                            2215 John Daniel Drive Clark, MO 54243
+                        </div>
+                    </div> 
+                </div>
     
                     <!-- seconda colonna -->
-                    <div class="col-12 col-md-4">
-                        <p class="footer_item">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident sit quis vero quod, quasi, earum maxime veniam veritatis laboriosam quae totam praesentium minus, sed soluta consequuntur delectus. Laudantium, possimus natus!
-                        </p>
+                <div class="col-12 col-md-4">
+                    <div class="social-media">
+                        <h5>AROUND THE WEB</h5>
+
+                        <!-- Facebook -->
+                        <div class="social_media_square">
+                            <div class="brand">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                        </div>
+
+                        <!-- Google -->
+                        <div class="social_media_square">
+                            <div class="brand">
+                                <i class="fa-brands fa-google-plus-g"></i>
+                            </div>
+                        </div>
+
+                        <!-- Twitter -->
+                        <div class="social_media_square">
+                            <div class="brand">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                        </div>
+
+                        <!-- Linkedin  -->
+                        <div class="social_media_square">
+                            <div class="brand">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </div>
+                        </div>
+
                     </div>
+                </div>
     
                     <!-- terza colonna -->
                     <div class="col-12 col-md-4">
-                        <p class="footer_item">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim non a aut, perspiciatis vel ex. Mollitia facilis in, aperiam asperiores dolor dolorem inventore odit eaque architecto perferendis labore unde nostrum.
-                        </p>
+                       <div class="about-freelancer">
+                           <h5>ABOUT FREELANCER</h5>
+                           <p>Freelance is a free to use, open source Bootstrap theme crated by 
+                               <a href="#">
+                                   Start Bootstrap
+                                </a>
+                            </p>
+                       </div>
                     </div>
-                </div>
             </div>
 
         <!-- footer bottom -->

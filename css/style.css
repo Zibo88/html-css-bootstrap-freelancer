@@ -47,14 +47,25 @@ header {
 }
 
 .header_menu_list.flex{
-    justify-content: end;  
+    justify-content: end; 
+    padding-top: 0.5rem; 
 }
 
 .header_menu_list.flex li a{
     padding: 0 0.5rem;
     color: white;
     font-size: 0.8rem;
+    display: inline-block;
 }
+
+
+
+.header_menu_list.flex li:hover a{
+    color: #19bc9c;
+    transform: scale(1.2);
+}
+
+
 
 /* MAIN */
 
@@ -134,6 +145,12 @@ header {
     margin-top: 4rem; 
 }
 
+.btn.my_btn:hover {
+    color: rgb(31, 47, 220);
+    
+    
+}
+
 
 /* sezione 4 */
 
@@ -165,6 +182,10 @@ header {
     padding-bottom: 0.5rem;
     background-color: #19bc9c;
     color: white;
+}
+
+.btn.my_btn_green:hover{
+    color: rgb(31, 47, 220)
 }
 
 /* FOOTER */
@@ -205,6 +226,7 @@ footer{
 
 .social_media_square:hover{
     cursor: pointer;
+    color: #19bc9c;
 }
 
 .brand i {

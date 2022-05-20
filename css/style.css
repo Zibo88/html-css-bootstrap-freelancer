@@ -131,7 +131,8 @@ header {
     color: #fff;
     background-color: transparent;
     border-color: white;
-    cursor: pointer;  
+    cursor: pointer; 
+    margin-top: 4rem; 
 }
 
 
@@ -202,6 +203,10 @@ footer{
     border-radius: 50%;
     display: inline-block;
     position: relative;
+}
+
+.social_media_square:hover{
+    cursor: pointer;
 }
 
 .brand i {

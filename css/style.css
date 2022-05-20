@@ -9,7 +9,7 @@ ul{
     display: flex;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -19,8 +19,7 @@ a{
 }
 
 section{
-    padding: 2rem 0;
-    
+    padding: 2rem 0; 
 }
 
 img {
@@ -136,7 +135,6 @@ header {
 }
 
 
-
 /* sezione 4 */
 
 .small_container h2, .stella, .stella_nera{
@@ -219,6 +217,7 @@ footer{
 .about-freelancer {
     font-size: 20px;
 }
+
 .about-freelancer p a {
     color: #1cbb9d;
 }

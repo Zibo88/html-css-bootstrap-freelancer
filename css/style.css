@@ -9,52 +9,88 @@ ul{
     display: flex;
 }
 
+a{
+    text-decoration: none;
+}
+
 .bg_lightgreen {
     background-color: #19bc9c;
+    color: white;
 }
 
 section{
-    padding: 1.3rem 0;
+    padding: 2rem 0;
+    
 }
+
+img {
+    width: 100%;
+}
+
+
 
 /* HEADER */
 header {
     height: 100px;
     background-color: #2c3e4f;
     align-items: center;
+    color: #f5f5f6;
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 25px;
 }
 
 .burger_menu{
     text-align: right;
+    font-size: 25px;
 }
 
 .header_menu_list.flex{
     justify-content: end;  
 }
 
-.header_menu_list.flex li{
-    color: #f5f5f6;
+.header_menu_list.flex li a{
     padding: 0 0.5rem;
+    color: white;
+    font-size: 0.8rem;
 }
 
 /* MAIN */
 
-/* jambotron */
-.jambotron_container {
-    text-align: center;
+.ms_img_jambotron_container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0.7rem 0 1.2rem 0;
 }
 
-h1{
-    color: white;
-} 
+.jambotron_container.text-center h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
 
 .jambotron_list.flex {
     justify-content: center;
     padding: 1rem 0;
 }
 
-.jambotron_list.flex li {
+
+/* STELLA */
+.stella{
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.stella:after, .stella:before {
+    content: "";
+    display: inline-block;
+    width: 30%;
+    height: 2px;
     color: white;
+}
+
+.jambotron_list.flex li {
     font-size: 15px;
     font-weight: 700;
 }
@@ -62,52 +98,50 @@ h1{
 
 /* sezione 2 */
 
-.section2 h2, .stella {
-    text-align: center;
-}
-.square {
-    height: 300px;
-    width: 100%;
-    background-color: lightblue;
-    margin: 1rem 0;
+
+.square img {
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 /* sezione 3 */
 
 .small_container{
     width: 60%;
-    margin:0 auto;
-    
+    max-width: 1170px;
+    margin:0 auto;    
 }
 
-.bg_lightgreen .small_container h2, .stella_bianca, .button {
-    text-align: center;
-    color: #f5f5f6;   
+.ms_btn_container {
+    width: 50%;
+    margin: 0 auto;
 }
 
-.bg_lightgreen .small_container p {
-    color: #f5f5f6;
+.btn.my_btn {
+    color: #fff;
+    background-color: transparent;
+    border-color: white;
+    cursor: pointer;  
 }
+
+
 
 /* sezione 4 */
 
-.small_container h2 {
+.small_container h2, .stella {
     text-align: center;
 }
 
-form{
-    padding: 1.2rem 0;
+.form-control {
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 1px solid #e5e5e5;
+
 }
 
-.form-item {
-    border-bottom: 1px solid #d9d9d9;
-    padding-bottom: 0.9rem;
-    padding-top: 0.5rem;
-    font-weight: 500;
-}
-
-.form-item:last-child {
-    padding-bottom: 10rem;
+.form-control:focus {
+    box-shadow: none;
 }
 
 .send{
@@ -119,8 +153,35 @@ form{
 footer{
     background-color: #3b536d;
     color: #f5f5f6;
-    padding: 1.3rem 0;
+    padding: 1.8rem 0 0 0;
 }
+
+.footer_item {
+    text-align: center;
+}
+
+.footer_bottom{
+    height: 70px;
+    background-color: #2c3e4f;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
+
+
+
+
+/***************** MEDIA ************/
+
+@media screen and (min-width:768px) {
+
+    .ms_img_jambotron_container {
+        width: 20%;
+        padding: 1rem 0 1.2rem 0;
+    }
+}
+
+
 
 
 

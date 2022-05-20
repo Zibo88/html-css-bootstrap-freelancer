@@ -43,17 +43,23 @@
 
                                 <!-- primo elemento -->
                                 <li>
-                                    link
+                                    <a href="#">
+                                        PORTFOLIO
+                                    </a>
                                 </li>
                                 
                                 <!-- secondo elemento -->
                                 <li>
-                                    link
+                                    <a href="#">
+                                        ABOUT
+                                    </a>
                                 </li>
 
                                 <!-- terzo elemento -->
                                 <li>
-                                    link
+                                    <a href="#">
+                                        CONTACT
+                                    </a>
                                 </li>
 
                             </ul>
@@ -69,9 +75,14 @@
         <!-- JAMBOTRON -->
         <section class="bg_lightgreen">
             <div class="container">
-                <div class="jambotron_container">
+                <div class="jambotron_container text-center">
+                    <div class="ms_img_jambotron_container">
+                        <img src="./img/avatar.svg" alt="jambotron-img">
+                    </div>
                     <h1>START BOOTSTRAP</h1>
-                    <div>STELLINA</div>
+                    <div class="stella">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
                     <ul class="jambotron_list flex">
 
                         <!-- primo elemento -->
@@ -96,39 +107,53 @@
 
         <!-- Sezione 2 -->
         <section class="section2">
-            <div class="container">
+            <div class="container text-center">
                 <h2>PORTFOLIO</h2>
-                <div class="stella">Stellina</div>
+                <div class="stella">
+                    <i class="fa-solid fa-star"></i>
+                </div>
                 <div class="row">
 
                     <!-- prima colonna -->
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="square"></div>
+                        <div class="square">
+                            <img src="./img/cabin.png" alt="cabin-img">
+                        </div>
                     </div>
 
                     <!-- seconda colonna -->
                      <div class="col-12 col-md-6 col-lg-4">
-                        <div class="square"></div>
+                        <div class="square">
+                            <img src="./img/cake.png" alt="cake-img">
+                        </div>
                     </div>
 
                     <!-- terza colonna -->
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="square"></div>
+                        <div class="square">
+                            <img src="./img/circus.png" alt="circus-img">
+                        </div>
                     </div>
 
                     <!-- quarta colonna -->
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="square"></div>
+                        <div class="square">
+                            <img src="./img/game.png" alt="game-img">
+                        </div>
                     </div>
 
                     <!-- quinta colonna -->
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="square"></div>
+                        <div class="square">
+                            <img src="./img/safe.png" alt="safe-img">
+                        </div>
                     </div>
 
                     <!-- sesta colonna -->
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="square"></div>
+                        <div class="square">
+                            <img src="./img/submarine.png" alt="submarine-img">
+                        </div>
                     </div>
 
                 </div>
@@ -137,30 +162,36 @@
 
         <!-- Sezione 3 -->
         <section class="bg_lightgreen">
-            <div class="small_container">
+            <div class="small_container text-center">
                 <h2>ABOUT</h2>
-                <div class="stella_bianca">Stellina</div>
+                <div class="stella">
+                    <i class="fa-solid fa-star"></i>
+                </div>
                 <div class="container-fluid">
                     <div class="row">
 
                         <!-- prima colonna -->
                         <div class="col-12 col-md-6">
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt aspernatur fuga repellendus cupiditate minus labore numquam, natus odit quis harum reprehenderit excepturi aliquam ex! Tenetur iste deserunt blanditiis doloremque dolor.
+                                Freelance is a free bootstrap theme created by Start Bootstrap. The download include the complete source files including HTML, CSS, and javaScript as well as optional LESS stylesheet for easy customization.
                             </p>
                         </div>
 
                         <!-- seconda colonna -->
                         <div class="col-12 col-md-6">
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis animi quisquam laudantium, illum ipsa quasi obcaecati illo tempora voluptatibus eveniet! Repellendus, quo consectetur. Praesentium consectetur cupiditate vero facilis quae voluptatem!
+                                Whether you'are a student looking to showcase your work, a professional looking to attract client, or a graphic artist looking to share your project, this template is a prefect starting point!
                             </p>
                         </div>
 
                         <!-- bottone -->
-                        <div class="button">
-                            DOWNLOAD
+                        <div class="ms_btn_container">
+                            <button type="button" class="btn my_btn">
+                                <i class="fa-solid fa-download"></i>
+                                Download
+                            </button>
                         </div>
+                       
                     </div>
 
                 </div>
@@ -171,36 +202,42 @@
         <section>
             <div class="small_container">
                 <h2>CONTACT ME</h2>
-                <div class="stella">stellina</div>
+                <div class="stella">
+                    <i class="fa-solid fa-star"></i>
+                </div>
                 <div class="container-fluid">
-                    <form action="">
-                        <ul class="form">
+                    <form>
 
-                            <!-- primo elemento -->
-                            <li class="form-item">
-                                Nome
-                            </li>
-        
-                            <!-- secondo elemento -->
-                            <li class="form-item">
-                                Email Address
-                            </li>
-        
-                            <!-- terzo elemento -->
-                            <li class="form-item">
-                                Phone Number
-                            </li>
-        
-                            <!-- quarto elemento -->
-                            <li class="form-item">
-                                Message
-                            </li>
+                        <div class="mb-3">
+                            <label for="Nome" class="form-label visually-hidden">
+                                Name
+                            </label>
+                            <input type="text" class="form-control" id="Name" aria-describedby="emailHelp" placeholder="Name">
+                        </div>
 
-                        </ul>
+                        <div class="mb-3">
+                            <label for="email" class="form-label visually-hidden">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email Address">
+                        </div>
+
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        
+                        <!-- text area -->
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
                     </form>
-                    <div class="send">
-                        SEND
-                    </div>
+                    
+                        <button type="button" class="my_btn">
+                            Send
+                        </button>
+                    
+                   
                 </div>   
             </div>
         </section>
@@ -210,30 +247,35 @@
     <footer>
         <div class="container">
             <div class="row">
-
+    
                 <!-- prima colonna -->
                 <div class="col-12 col-md-4">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sed aspernatur pariatur voluptatum cupiditate dolorum facere commodi itaque dolorem, nisi numquam dignissimos adipisci distinctio hic quas tenetur rem sunt at.
-                    </p>
+                        <p class="footer_item">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sed aspernatur pariatur voluptatum cupiditate dolorum facere commodi itaque dolorem, nisi numquam dignissimos adipisci distinctio hic quas tenetur rem sunt at.
+                        </p>
+                    </div>
+    
+                    <!-- seconda colonna -->
+                    <div class="col-12 col-md-4">
+                        <p class="footer_item">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident sit quis vero quod, quasi, earum maxime veniam veritatis laboriosam quae totam praesentium minus, sed soluta consequuntur delectus. Laudantium, possimus natus!
+                        </p>
+                    </div>
+    
+                    <!-- terza colonna -->
+                    <div class="col-12 col-md-4">
+                        <p class="footer_item">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim non a aut, perspiciatis vel ex. Mollitia facilis in, aperiam asperiores dolor dolorem inventore odit eaque architecto perferendis labore unde nostrum.
+                        </p>
+                    </div>
                 </div>
-
-                <!-- seconda colonna -->
-                <div class="col-12 col-md-4">
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident sit quis vero quod, quasi, earum maxime veniam veritatis laboriosam quae totam praesentium minus, sed soluta consequuntur delectus. Laudantium, possimus natus!
-                    </p>
-                </div>
-
-                <!-- terza colonna -->
-                <div class="col-12 col-md-4">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim non a aut, perspiciatis vel ex. Mollitia facilis in, aperiam asperiores dolor dolorem inventore odit eaque architecto perferendis labore unde nostrum.
-                    </p>
-                </div>
-
             </div>
-        </div>
+
+        <!-- footer bottom -->
+            <div class="footer_bottom"> 
+                <div>Copyright your website 2019</div>
+            </div>
+
     </footer>
 </body>
 </html>

@@ -221,19 +221,22 @@ footer{
     border: 1px solid white;
     border-radius: 50%;
     display: inline-block;
-    position: relative;
 }
 
-.social_media_square:hover{
+.brand:hover i{
     cursor: pointer;
     color: #19bc9c;
 }
 
+.brand{
+    display: inline-block;
+}
+
 .brand i {
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    color: white; 
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
 }
 
 .about-freelancer {
